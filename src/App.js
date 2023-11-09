@@ -1,4 +1,4 @@
-
+import Statesprops from './components/Statesprops';
 import './App.css';
 import Input from './components/Input';
 import Cone from './components/Cone';
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Cone/>
       <Input/>
+      <Statesprops/>
     </div>
   );
 }
